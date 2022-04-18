@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import FileUpload from '../../components/FileUpload'
 import StepWrapper from '../../components/StepWrapper'
-import { useInput } from '../../components/useInput'
+import { useInput } from '../../hooks/useInput'
 import MainLayout from '../../layouts/MainLayout'
 
 const Index = () => {

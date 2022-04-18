@@ -3,7 +3,7 @@ import axios from "axios"
 import { GetServerSideProps } from "next"
 import { useRouter } from "next/router"
 import { useState } from "react"
-import { useInput } from "../../components/useInput"
+import { useInput } from "../../hooks/useInput"
 import MainLayout from "../../layouts/MainLayout"
 import { ITrack } from "../../types/track"
 
